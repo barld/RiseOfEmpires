@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Sides may be null">
+    <Position X="2.698" Y="1.844" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="RiseOfEmpires.Tile">
+    <Position X="4.75" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAIAAAAAAAAACBAAAAAAAAAAAAAAAgIABAIAA=</HashCode>
+      <FileName>Tile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RiseOfEmpires.LandTile">
+    <Position X="6.75" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAgAAAEAAAAAAAAAAAAAAoAA=</HashCode>
+      <FileName>LandTile.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="InPossesionBy" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RiseOfEmpires.SeaTile">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SeaTile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RiseOfEmpires.SeaRouteTile">
+    <Position X="0.75" Y="6.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AIAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>SeaRouteTile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RiseOfEmpires.ExtraEnemyLandTile">
+    <Position X="8.75" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExtraEnemyLandTile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RiseOfEmpires.StartPointLandTile">
+    <Position X="6.75" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StartPointLandTile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RiseOfEmpires.ExtraDiceLandTile">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExtraDiceLandTile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RiseOfEmpires.Player">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAACAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="PossesiontLandTiles" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="RiseOfEmpires.Card">
+    <Position X="12.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RiseOfEmpires.CardStack">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>CardStack.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="cards" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="RiseOfEmpires.Map">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Map.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="tiles" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="RiseOfEmpires.MapLoader">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RiseOfEmpires.MapCreator">
+    <Position X="18.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="RiseOfEmpires.IRouteTile">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>IRouteTile.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
